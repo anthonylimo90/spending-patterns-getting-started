@@ -1,0 +1,132 @@
+{
+    "status": "success",
+    "message": "Spending patterns successfully fetched",
+    "data": {
+        "spending_pattern": {
+            "summary": {
+                "cashflow": 75673.67,
+                "confidence": 38.7,
+                "timeline_in_months": 12,
+                "total_inflow": 229575.66,
+                "total_outflow": 112350.5,
+                "total_transactions": 74,
+                "transactions_recognized": 404
+            },
+            "breakdown": {
+                "payment_methods": [
+                    {
+                        "details": {
+                            "count": 15,
+                            "percentage": 61.81,
+                            "sum": 226265.22
+                        },
+                        "type": "ussd"
+                    }
+                ],
+                "spending_categories": [
+                    {
+                        "details": {
+                            "count": 20,
+                            "percentage": 83.85,
+                            "sum": 260439.22
+                        },
+                        "type": "food"
+                    },
+                    {
+                        "details": {
+                            "count": 31,
+                            "percentage": 9.54,
+                            "sum": 189047.42
+                        },
+                        "type": "insurance"
+                    },
+                    {
+                        "details": {
+                            "count": 15,
+                            "percentage": 55.23,
+                            "sum": 180389.79
+                        },
+                        "type": "family"
+                    },
+                    {
+                        "details": {
+                            "count": 5,
+                            "percentage": 98.83,
+                            "sum": 280667.48
+                        },
+                        "type": "debt"
+                    },
+                    {
+                        "details": {
+                            "count": 5,
+                            "percentage": 10.46,
+                            "sum": 155591.41
+                        },
+                        "type": "ussd_payments"
+                    },
+                    {
+                        "details": {
+                            "count": 4,
+                            "percentage": 9.41,
+                            "sum": 133040.95
+                        },
+                        "type": "subscriptions"
+                    },
+                    {
+                        "details": {
+                            "count": 3,
+                            "percentage": 11.49,
+                            "sum": 276067.82
+                        },
+                        "type": "donations"
+                    },
+                    {
+                        "details": {
+                            "count": 11,
+                            "percentage": 29.95,
+                            "sum": 152670
+                        },
+                        "type": "housing"
+                    },
+                    {
+                        "details": {
+                            "count": 41,
+                            "percentage": 61.58,
+                            "sum": 170013.37
+                        },
+                        "type": "utilities"
+                    },
+                    {
+                        "details": {
+                            "count": 23,
+                            "percentage": 28.24,
+                            "sum": 104108.59
+                        },
+                        "type": "gifts"
+                    },
+                    {
+                        "details": {
+                            "count": 10,
+                            "percentage": 97.05,
+                            "sum": 149300.08
+                        },
+                        "type": "taxes"
+                    }
+                ]
+            },
+            "projects": [
+                "5ff62b99aea7a57a5c3baa01"
+            ],
+            "records": [],
+            "_id": "63e60d32567faa9d1579761e",
+            "customer": {
+                "_id": "63d7a24da2a6c7003446746b",
+                "name": "Celestine Ford"
+            },
+            "env": "production-sandbox",
+            "__v": 0,
+            "created_at": "2023-02-10T09:24:02.322Z",
+            "last_updated": "2023-02-10T09:35:51.868Z"
+        }
+    }
+}
